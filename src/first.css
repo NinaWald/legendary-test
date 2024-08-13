@@ -1,0 +1,38 @@
+/* First.css */
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pokemon-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .pokemon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Animate opacity and position */
+  }
+  
+  .pokemon-image.fade-in {
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Reset position */
+  }
+  
+  
