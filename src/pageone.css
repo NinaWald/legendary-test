@@ -1,0 +1,44 @@
+/* Container for the joke image and button */
+.joke-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Styling for the box around the joke image */
+.joke-box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Style for the joke image */
+.joke-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+/* Styling for the button */
+.refresh-button {
+    background-color: #339452;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+    background-color: #0056b3;
+}

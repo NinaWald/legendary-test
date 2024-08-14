@@ -25,15 +25,15 @@ h1 {
 
 /* Pastel colors for buttons */
 .nav-button:nth-child(1) {
-  background-color: #ffd1dc; /* pastel pink */
+  background-color: #d18899; /* pastel pink */
 }
 
 .nav-button:nth-child(2) {
-  background-color: #b3e5fc; /* pastel blue */
+  background-color: #77c3e7; /* pastel blue */
 }
 
 .nav-button:nth-child(3) {
-  background-color: #c5e1a5; /* pastel green */
+  background-color: #7ba848; /* pastel green */
 }
 
 /* Button hover effect */
