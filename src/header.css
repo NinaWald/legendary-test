@@ -2,10 +2,13 @@
   background-color: rgb(44, 168, 209);
   padding: 20px;
   text-align: center;
+  
 }
 
 h1 {
   background-color: aqua;
+  border-radius: 50px;
+  padding: 20px;
 }
 
 .button-container {
