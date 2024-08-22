@@ -9,7 +9,7 @@ const Header = () => {
       <div className="button-container">
         <Link to="/page1" className="nav-button">Dad joke</Link>
         <Link to="/page2" className="nav-button">Pokemons</Link>
-        <Link to="/page3" className="nav-button">Page 3</Link>
+        <Link to="/page3" className="nav-button">Images</Link>
       </div>
     </header>
   );
